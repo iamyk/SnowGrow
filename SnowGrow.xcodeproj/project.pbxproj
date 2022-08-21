@@ -11,6 +11,8 @@
 		89539CD228B1EED2004B4004 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89539CD128B1EED2004B4004 /* ContentView.swift */; };
 		89539CD428B1EED3004B4004 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89539CD328B1EED3004B4004 /* Assets.xcassets */; };
 		89539CD728B1EED3004B4004 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89539CD628B1EED3004B4004 /* Preview Assets.xcassets */; };
+		89539CE028B1F0AE004B4004 /* GrowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89539CDF28B1F0AE004B4004 /* GrowButton.swift */; };
+		89539CE228B1F19C004B4004 /* SnowCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89539CE128B1F19C004B4004 /* SnowCircle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		89539CD128B1EED2004B4004 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		89539CD328B1EED3004B4004 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89539CD628B1EED3004B4004 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		89539CDF28B1F0AE004B4004 /* GrowButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrowButton.swift; sourceTree = "<group>"; };
+		89539CE128B1F19C004B4004 /* SnowCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnowCircle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,8 @@
 		89539CCE28B1EED2004B4004 /* SnowGrow */ = {
 			isa = PBXGroup;
 			children = (
+				89539CDE28B1F092004B4004 /* Helpers */,
+				89539CDD28B1F084004B4004 /* Views */,
 				89539CCF28B1EED2004B4004 /* SnowGrowApp.swift */,
 				89539CD128B1EED2004B4004 /* ContentView.swift */,
 				89539CD328B1EED3004B4004 /* Assets.xcassets */,
@@ -65,6 +71,22 @@
 				89539CD628B1EED3004B4004 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		89539CDD28B1F084004B4004 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		89539CDE28B1F092004B4004 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				89539CDF28B1F0AE004B4004 /* GrowButton.swift */,
+				89539CE128B1F19C004B4004 /* SnowCircle.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +159,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89539CE228B1F19C004B4004 /* SnowCircle.swift in Sources */,
 				89539CD228B1EED2004B4004 /* ContentView.swift in Sources */,
+				89539CE028B1F0AE004B4004 /* GrowButton.swift in Sources */,
 				89539CD028B1EED2004B4004 /* SnowGrowApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,8 +289,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_ASSET_PATHS = "\"SnowGrow/Preview Content\"";
+				DEVELOPMENT_TEAM = FT24FH9672;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -293,8 +318,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_ASSET_PATHS = "\"SnowGrow/Preview Content\"";
+				DEVELOPMENT_TEAM = FT24FH9672;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
